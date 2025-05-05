@@ -35,7 +35,7 @@ suiAddress: update([], text, async () => {
                         canister_id: None,
                         derivation_path: [caller],
                         key_id: {
-                            curve: { secp256k1: null },
+                            curve: { secp256k1: null }, // also use ed25519 signature type
                             name: 'dfx_test_key'
                         }
                     }
